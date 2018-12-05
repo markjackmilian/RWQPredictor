@@ -9,4 +9,13 @@
         <PackageReference Include="Microsoft.ML" Version="0.8.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="winequality-red.csv">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="winequality_test.csv">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
